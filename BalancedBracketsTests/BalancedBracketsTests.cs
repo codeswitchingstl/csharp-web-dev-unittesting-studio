@@ -47,14 +47,14 @@ namespace BalancedBracketsTests
             Assert.IsFalse(BalancedBrackets.HasBalancedBrackets("LaunchCode]"));
         }
 
-        // Test 6
+        // Test 6 - failed
         [TestMethod]
         public void ReversedBracketsReturnsFalse()
         {
             Assert.IsFalse(BalancedBrackets.HasBalancedBrackets("]["));
         }
 
-        // Test 7
+        // Test 7 - failed
         [TestMethod]
         public void MisplacedBracketsWithStringReturnsFalse()
         {
@@ -84,7 +84,7 @@ namespace BalancedBracketsTests
         }
 
 
-        // Test 11
+        // Test 11 - failed
         [TestMethod]
         public void NestedBracketsReversedReturnsFalse()
         {
